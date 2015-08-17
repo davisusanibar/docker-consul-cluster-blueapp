@@ -1,0 +1,8 @@
+blue:
+  image: borja/bluegreen:v1
+  environment:
+    SERVICE_80_NAME: http
+    SERVICE_NAME: appblue
+    SERVICE_TAGS: production
+  ports:
+  - "80"
